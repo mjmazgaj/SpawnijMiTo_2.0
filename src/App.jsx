@@ -1,3 +1,6 @@
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 import Nav from "./components/nav/Nav";
 import Header from "./components/header/Header";
 import About from "./components/about/About";
@@ -7,7 +10,9 @@ import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 
-const App = () => {
+import Shop from "./components/shop/Shop";
+
+const HomePage = () => {
   return (
     <>
       <Nav />
@@ -16,9 +21,23 @@ const App = () => {
       <Services />
       <Portfolio />
       <Testimonials />
-      <Contact />
-      <Footer />
     </>
+  );
+};
+
+const App = () => {
+  return (
+    <Router>
+      <div>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/shop" element={<Shop />} />
+        </Routes>
+
+        <Contact />
+        <Footer />
+      </div>
+    </Router>
   );
 };
 

@@ -2,11 +2,11 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import Nav from "./components/nav/Nav";
-import Header from "./components/Home/header/Header";
-import About from "./components/Home/about/About";
-import Services from "./components/Home/services/Services";
-import Portfolio from "./components/Home/portfolio/Portfolio";
-import Testimonials from "./components/Home/testimonials/Testimonials";
+import Header from "./components/header/Header";
+import About from "./components/about/About";
+import Services from "./components/services/Services";
+import Portfolio from "./components/portfolio/Portfolio";
+import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 

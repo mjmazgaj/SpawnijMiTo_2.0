@@ -1,11 +1,11 @@
 import "./portfolio.min.css";
-import IMG1 from "../../../assets/portfolio/portfolio1.jpg";
-import IMG2 from "../../../assets/portfolio/portfolio2.jpg";
-import IMG3 from "../../../assets/portfolio/portfolio3.jpg";
-import IMG4 from "../../../assets/portfolio/portfolio4.jpg";
-import IMG9 from "../../../assets/portfolio/portfolio9.jpg";
-import IMG10 from "../../../assets/portfolio/portfolio10.jpg";
-import IMG20 from "../../../assets/portfolio/portfolio20.jpg";
+import IMG1 from "../../assets/portfolio/portfolio1.jpg";
+import IMG2 from "../../assets/portfolio/portfolio2.jpg";
+import IMG3 from "../../assets/portfolio/portfolio3.jpg";
+import IMG4 from "../../assets/portfolio/portfolio4.jpg";
+import IMG9 from "../../assets/portfolio/portfolio9.jpg";
+import IMG10 from "../../assets/portfolio/portfolio10.jpg";
+import IMG20 from "../../assets/portfolio/portfolio20.jpg";
 
 const data = [
   {

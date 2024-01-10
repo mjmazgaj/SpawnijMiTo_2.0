@@ -1,0 +1,1402 @@
+[
+    {
+        "Id": "659eed76ec673f921ecd4025",
+        "Name": "Modern Concrete Pizza",
+        "Category": [
+            "loft",
+            "modern"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "black",
+        "Price": "329.00",
+        "Image": "https://picsum.photos/seed/67FXB/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4026",
+        "Name": "Sleek Bronze Bike",
+        "Category": [
+            "modern",
+            "outside"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "walnut",
+        "CountertopColor": "white",
+        "Price": "312.00",
+        "Image": "https://loremflickr.com/640/480?lock=6162833385455616"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4027",
+        "Name": "Rustic Metal Salad",
+        "Category": [
+            "inside",
+            "loft"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "black",
+        "Price": "869.00",
+        "Image": "https://picsum.photos/seed/Fl5yRF2QAF/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4028",
+        "Name": "Incredible Wooden Bike",
+        "Category": [
+            "modern",
+            "inside"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "black",
+        "Price": "27.00",
+        "Image": "https://loremflickr.com/640/480?lock=4665580376293376"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4029",
+        "Name": "Bespoke Bronze Chicken",
+        "Category": [
+            "loft",
+            "outside"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "black",
+        "Price": "35.00",
+        "Image": "https://picsum.photos/seed/ATIvrWAWt/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd402a",
+        "Name": "Bespoke Concrete Gloves",
+        "Category": [
+            "outside",
+            "outside"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "black",
+        "Price": "527.00",
+        "Image": "https://loremflickr.com/640/480?lock=5552173813334016"
+    },
+    {
+        "Id": "659eed76ec673f921ecd402b",
+        "Name": "Practical Soft Mouse",
+        "Category": [
+            "outside",
+            "stand"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "walnut",
+        "CountertopColor": "black",
+        "Price": "580.00",
+        "Image": "https://loremflickr.com/640/480?lock=6003100779282432"
+    },
+    {
+        "Id": "659eed76ec673f921ecd402c",
+        "Name": "Practical Fresh Fish",
+        "Category": [
+            "outside",
+            "other"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "gray",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "white",
+        "Price": "198.00",
+        "Image": "https://picsum.photos/seed/laTgFlhq3/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd402d",
+        "Name": "Generic Granite Shoes",
+        "Category": [
+            "loft",
+            "other"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "gray",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "natural",
+        "Price": "219.00",
+        "Image": "https://picsum.photos/seed/D0AFeJ57W/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd402e",
+        "Name": "Practical Rubber Cheese",
+        "Category": [
+            "hifi",
+            "inside"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "black",
+        "Price": "770.00",
+        "Image": "https://picsum.photos/seed/jo3qn/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd402f",
+        "Name": "Bespoke Granite Chair",
+        "Category": [
+            "inside",
+            "outside"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "gray",
+        "CountertopMaterial": "walnut",
+        "CountertopColor": "black",
+        "Price": "493.00",
+        "Image": "https://picsum.photos/seed/ulIRMw/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4030",
+        "Name": "Generic Wooden Cheese",
+        "Category": [
+            "outside",
+            "modern"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "white",
+        "Price": "364.00",
+        "Image": "https://picsum.photos/seed/ivwhExLb1/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4031",
+        "Name": "Small Concrete Tuna",
+        "Category": [
+            "loft",
+            "loft"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "natural",
+        "Price": "299.00",
+        "Image": "https://loremflickr.com/640/480?lock=6438826970972160"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4032",
+        "Name": "Fantastic Metal Chicken",
+        "Category": [
+            "other",
+            "modern"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "gray",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "black",
+        "Price": "867.00",
+        "Image": "https://loremflickr.com/640/480?lock=4456398471561216"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4033",
+        "Name": "Tasty Steel Pizza",
+        "Category": [
+            "hifi",
+            "other"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "natural",
+        "Price": "790.00",
+        "Image": "https://picsum.photos/seed/jqQk4gLY/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4034",
+        "Name": "Sleek Steel Chicken",
+        "Category": [
+            "loft",
+            "loft"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "white",
+        "Price": "324.00",
+        "Image": "https://loremflickr.com/640/480?lock=8691343677194240"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4035",
+        "Name": "Unbranded Steel Keyboard",
+        "Category": [
+            "modern",
+            "other"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "walnut",
+        "CountertopColor": "gray",
+        "Price": "553.00",
+        "Image": "https://loremflickr.com/640/480?lock=5749662245978112"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4036",
+        "Name": "Electronic Steel Fish",
+        "Category": [
+            "outside",
+            "other"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "gray",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "gray",
+        "Price": "522.00",
+        "Image": "https://picsum.photos/seed/MTCxmmn/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4037",
+        "Name": "Licensed Bronze Computer",
+        "Category": [
+            "modern",
+            "inside"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "black",
+        "Price": "333.00",
+        "Image": "https://picsum.photos/seed/aPwtJz0F/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4038",
+        "Name": "Rustic Bronze Hat",
+        "Category": [
+            "outside",
+            "modern"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "white",
+        "Price": "488.00",
+        "Image": "https://loremflickr.com/640/480?lock=391265606696960"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4039",
+        "Name": "Luxurious Steel Shoes",
+        "Category": [
+            "other",
+            "modern"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "white",
+        "Price": "598.00",
+        "Image": "https://picsum.photos/seed/LiOQeZr0/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd403a",
+        "Name": "Intelligent Plastic Tuna",
+        "Category": [
+            "inside",
+            "inside"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "black",
+        "Price": "220.00",
+        "Image": "https://loremflickr.com/640/480?lock=1356488043921408"
+    },
+    {
+        "Id": "659eed76ec673f921ecd403b",
+        "Name": "Recycled Cotton Pants",
+        "Category": [
+            "hifi",
+            "outside"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "walnut",
+        "CountertopColor": "natural",
+        "Price": "184.00",
+        "Image": "https://picsum.photos/seed/W5MaCYDlve/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd403c",
+        "Name": "Generic Concrete Chair",
+        "Category": [
+            "inside",
+            "outside"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "gray",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "white",
+        "Price": "818.00",
+        "Image": "https://loremflickr.com/640/480?lock=7272388376920064"
+    },
+    {
+        "Id": "659eed76ec673f921ecd403d",
+        "Name": "Tasty Fresh Towels",
+        "Category": [
+            "hifi",
+            "modern"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "walnut",
+        "CountertopColor": "white",
+        "Price": "23.00",
+        "Image": "https://picsum.photos/seed/WYg0m/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd403e",
+        "Name": "Sleek Metal Shoes",
+        "Category": [
+            "outside",
+            "outside"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "gray",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "black",
+        "Price": "15.00",
+        "Image": "https://picsum.photos/seed/ioEZJ3ptaU/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd403f",
+        "Name": "Oriental Frozen Cheese",
+        "Category": [
+            "inside",
+            "loft"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "gray",
+        "Price": "959.00",
+        "Image": "https://loremflickr.com/640/480?lock=1081362006147072"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4040",
+        "Name": "Refined Granite Computer",
+        "Category": [
+            "loft",
+            "loft"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "gray",
+        "Price": "434.00",
+        "Image": "https://loremflickr.com/640/480?lock=8397656554471424"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4041",
+        "Name": "Rustic Plastic Chair",
+        "Category": [
+            "outside",
+            "other"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "natural",
+        "Price": "310.00",
+        "Image": "https://loremflickr.com/640/480?lock=2893763640819712"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4042",
+        "Name": "Oriental Cotton Cheese",
+        "Category": [
+            "other",
+            "loft"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "gray",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "gray",
+        "Price": "40.00",
+        "Image": "https://picsum.photos/seed/6XQmHrk3hc/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4043",
+        "Name": "Incredible Metal Bike",
+        "Category": [
+            "inside",
+            "outside"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "walnut",
+        "CountertopColor": "black",
+        "Price": "383.00",
+        "Image": "https://loremflickr.com/640/480?lock=7502792386150400"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4044",
+        "Name": "Generic Fresh Keyboard",
+        "Category": [
+            "loft",
+            "modern"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "white",
+        "Price": "56.00",
+        "Image": "https://picsum.photos/seed/15UwGfEZJ/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4045",
+        "Name": "Incredible Plastic Pizza",
+        "Category": [
+            "stand",
+            "other"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "gray",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "black",
+        "Price": "952.00",
+        "Image": "https://picsum.photos/seed/HMv7m/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4046",
+        "Name": "Rustic Wooden Chips",
+        "Category": [
+            "inside",
+            "hifi"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "walnut",
+        "CountertopColor": "natural",
+        "Price": "412.00",
+        "Image": "https://loremflickr.com/640/480?lock=1733934043889664"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4047",
+        "Name": "Intelligent Metal Chicken",
+        "Category": [
+            "hifi",
+            "inside"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "black",
+        "Price": "850.00",
+        "Image": "https://loremflickr.com/640/480?lock=6617378584526848"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4048",
+        "Name": "Gorgeous Frozen Sausages",
+        "Category": [
+            "other",
+            "other"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "walnut",
+        "CountertopColor": "natural",
+        "Price": "814.00",
+        "Image": "https://picsum.photos/seed/4904U4B/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4049",
+        "Name": "Tasty Cotton Shirt",
+        "Category": [
+            "hifi",
+            "inside"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "gray",
+        "CountertopMaterial": "walnut",
+        "CountertopColor": "black",
+        "Price": "988.00",
+        "Image": "https://picsum.photos/seed/Mqqw5X3/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd404a",
+        "Name": "Elegant Soft Bike",
+        "Category": [
+            "hifi",
+            "hifi"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "gray",
+        "CountertopMaterial": "walnut",
+        "CountertopColor": "white",
+        "Price": "822.00",
+        "Image": "https://picsum.photos/seed/e7fOsZRan/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd404b",
+        "Name": "Bespoke Cotton Hat",
+        "Category": [
+            "hifi",
+            "loft"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "gray",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "gray",
+        "Price": "359.00",
+        "Image": "https://picsum.photos/seed/Y3Ugp/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd404c",
+        "Name": "Intelligent Concrete Ball",
+        "Category": [
+            "stand",
+            "loft"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "gray",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "white",
+        "Price": "960.00",
+        "Image": "https://loremflickr.com/640/480?lock=2197284383096832"
+    },
+    {
+        "Id": "659eed76ec673f921ecd404d",
+        "Name": "Luxurious Fresh Bike",
+        "Category": [
+            "stand",
+            "hifi"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "white",
+        "Price": "683.00",
+        "Image": "https://picsum.photos/seed/0D1ns/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd404e",
+        "Name": "Ergonomic Cotton Gloves",
+        "Category": [
+            "outside",
+            "other"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "gray",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "black",
+        "Price": "60.00",
+        "Image": "https://picsum.photos/seed/mRA1RI/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd404f",
+        "Name": "Ergonomic Steel Shoes",
+        "Category": [
+            "modern",
+            "loft"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "gray",
+        "Price": "248.00",
+        "Image": "https://picsum.photos/seed/4kwhaZP/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4050",
+        "Name": "Elegant Plastic Gloves",
+        "Category": [
+            "hifi",
+            "hifi"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "walnut",
+        "CountertopColor": "natural",
+        "Price": "778.00",
+        "Image": "https://loremflickr.com/640/480?lock=5472386642083840"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4051",
+        "Name": "Awesome Frozen Ball",
+        "Category": [
+            "hifi",
+            "hifi"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "walnut",
+        "CountertopColor": "gray",
+        "Price": "332.00",
+        "Image": "https://loremflickr.com/640/480?lock=3304070905331712"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4052",
+        "Name": "Practical Wooden Mouse",
+        "Category": [
+            "outside",
+            "hifi"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "natural",
+        "Price": "724.00",
+        "Image": "https://picsum.photos/seed/8tu9ijbo/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4053",
+        "Name": "Recycled Concrete Keyboard",
+        "Category": [
+            "other",
+            "other"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "walnut",
+        "CountertopColor": "gray",
+        "Price": "835.00",
+        "Image": "https://loremflickr.com/640/480?lock=2856228522819584"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4054",
+        "Name": "Ergonomic Soft Shirt",
+        "Category": [
+            "other",
+            "inside"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "gray",
+        "Price": "512.00",
+        "Image": "https://picsum.photos/seed/tR1LDazg/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4055",
+        "Name": "Refined Granite Shoes",
+        "Category": [
+            "loft",
+            "other"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "walnut",
+        "CountertopColor": "natural",
+        "Price": "758.00",
+        "Image": "https://picsum.photos/seed/nv2PIBlB/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4056",
+        "Name": "Refined Steel Hat",
+        "Category": [
+            "hifi",
+            "outside"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "walnut",
+        "CountertopColor": "gray",
+        "Price": "403.00",
+        "Image": "https://loremflickr.com/640/480?lock=2754662363037696"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4057",
+        "Name": "Practical Frozen Bike",
+        "Category": [
+            "stand",
+            "hifi"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "walnut",
+        "CountertopColor": "gray",
+        "Price": "400.00",
+        "Image": "https://picsum.photos/seed/jRxl7u/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4058",
+        "Name": "Generic Rubber Soap",
+        "Category": [
+            "stand",
+            "other"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "natural",
+        "Price": "996.00",
+        "Image": "https://picsum.photos/seed/40CF1/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4059",
+        "Name": "Awesome Cotton Bacon",
+        "Category": [
+            "modern",
+            "stand"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "gray",
+        "Price": "248.00",
+        "Image": "https://picsum.photos/seed/yZ7VKXd/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd405a",
+        "Name": "Gorgeous Steel Shoes",
+        "Category": [
+            "inside",
+            "inside"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "white",
+        "Price": "571.00",
+        "Image": "https://loremflickr.com/640/480?lock=19427175170048"
+    },
+    {
+        "Id": "659eed76ec673f921ecd405b",
+        "Name": "Handmade Cotton Gloves",
+        "Category": [
+            "modern",
+            "modern"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "gray",
+        "CountertopMaterial": "walnut",
+        "CountertopColor": "white",
+        "Price": "893.00",
+        "Image": "https://loremflickr.com/640/480?lock=3155543434723328"
+    },
+    {
+        "Id": "659eed76ec673f921ecd405c",
+        "Name": "Generic Soft Bike",
+        "Category": [
+            "outside",
+            "inside"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "black",
+        "Price": "591.00",
+        "Image": "https://loremflickr.com/640/480?lock=5542197168439296"
+    },
+    {
+        "Id": "659eed76ec673f921ecd405d",
+        "Name": "Recycled Concrete Shirt",
+        "Category": [
+            "hifi",
+            "other"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "black",
+        "Price": "394.00",
+        "Image": "https://picsum.photos/seed/mrj3LEZc/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd405e",
+        "Name": "Recycled Bronze Salad",
+        "Category": [
+            "outside",
+            "loft"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "gray",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "white",
+        "Price": "870.00",
+        "Image": "https://loremflickr.com/640/480?lock=4139912972468224"
+    },
+    {
+        "Id": "659eed76ec673f921ecd405f",
+        "Name": "Unbranded Fresh Towels",
+        "Category": [
+            "loft",
+            "other"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "gray",
+        "CountertopMaterial": "walnut",
+        "CountertopColor": "white",
+        "Price": "67.00",
+        "Image": "https://picsum.photos/seed/ZKV7y/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4060",
+        "Name": "Small Steel Pants",
+        "Category": [
+            "hifi",
+            "stand"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "black",
+        "Price": "691.00",
+        "Image": "https://picsum.photos/seed/MNE9u/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4061",
+        "Name": "Modern Bronze Gloves",
+        "Category": [
+            "other",
+            "modern"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "walnut",
+        "CountertopColor": "natural",
+        "Price": "501.00",
+        "Image": "https://picsum.photos/seed/ot4KrEj1A/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4062",
+        "Name": "Ergonomic Fresh Towels",
+        "Category": [
+            "stand",
+            "inside"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "natural",
+        "Price": "126.00",
+        "Image": "https://loremflickr.com/640/480?lock=2831420269527040"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4063",
+        "Name": "Small Steel Chicken",
+        "Category": [
+            "modern",
+            "hifi"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "walnut",
+        "CountertopColor": "black",
+        "Price": "273.00",
+        "Image": "https://picsum.photos/seed/y9HzOiqN/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4064",
+        "Name": "Generic Cotton Chicken",
+        "Category": [
+            "modern",
+            "inside"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "gray",
+        "CountertopMaterial": "walnut",
+        "CountertopColor": "black",
+        "Price": "451.00",
+        "Image": "https://picsum.photos/seed/zGJ5YJ9Rh/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4065",
+        "Name": "Small Cotton Soap",
+        "Category": [
+            "outside",
+            "loft"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "black",
+        "Price": "556.00",
+        "Image": "https://loremflickr.com/640/480?lock=631812202168320"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4066",
+        "Name": "Bespoke Fresh Pizza",
+        "Category": [
+            "other",
+            "other"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "walnut",
+        "CountertopColor": "natural",
+        "Price": "871.00",
+        "Image": "https://loremflickr.com/640/480?lock=5619584266665984"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4067",
+        "Name": "Sleek Soft Sausages",
+        "Category": [
+            "outside",
+            "outside"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "gray",
+        "Price": "267.00",
+        "Image": "https://picsum.photos/seed/kzOz0L/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4068",
+        "Name": "Incredible Wooden Pants",
+        "Category": [
+            "loft",
+            "other"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "gray",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "white",
+        "Price": "349.00",
+        "Image": "https://loremflickr.com/640/480?lock=8086662034751488"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4069",
+        "Name": "Licensed Fresh Chair",
+        "Category": [
+            "inside",
+            "other"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "gray",
+        "Price": "582.00",
+        "Image": "https://loremflickr.com/640/480?lock=2913618729369600"
+    },
+    {
+        "Id": "659eed76ec673f921ecd406a",
+        "Name": "Luxurious Bronze Mouse",
+        "Category": [
+            "stand",
+            "modern"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "walnut",
+        "CountertopColor": "gray",
+        "Price": "410.00",
+        "Image": "https://loremflickr.com/640/480?lock=2649850753581056"
+    },
+    {
+        "Id": "659eed76ec673f921ecd406b",
+        "Name": "Licensed Rubber Bacon",
+        "Category": [
+            "outside",
+            "stand"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "natural",
+        "Price": "693.00",
+        "Image": "https://picsum.photos/seed/OsbiSaUt5f/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd406c",
+        "Name": "Unbranded Frozen Tuna",
+        "Category": [
+            "inside",
+            "stand"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "natural",
+        "Price": "211.00",
+        "Image": "https://picsum.photos/seed/YSbtDa8/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd406d",
+        "Name": "Generic Steel Computer",
+        "Category": [
+            "hifi",
+            "stand"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "walnut",
+        "CountertopColor": "natural",
+        "Price": "30.00",
+        "Image": "https://loremflickr.com/640/480?lock=3018823426899968"
+    },
+    {
+        "Id": "659eed76ec673f921ecd406e",
+        "Name": "Intelligent Frozen Sausages",
+        "Category": [
+            "stand",
+            "other"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "white",
+        "Price": "951.00",
+        "Image": "https://loremflickr.com/640/480?lock=1744732703162368"
+    },
+    {
+        "Id": "659eed76ec673f921ecd406f",
+        "Name": "Oriental Fresh Ball",
+        "Category": [
+            "inside",
+            "other"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "gray",
+        "Price": "683.00",
+        "Image": "https://picsum.photos/seed/PU8tUeju/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4070",
+        "Name": "Recycled Fresh Pizza",
+        "Category": [
+            "loft",
+            "stand"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "white",
+        "Price": "122.00",
+        "Image": "https://picsum.photos/seed/JwsoHUOm/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4071",
+        "Name": "Modern Steel Chair",
+        "Category": [
+            "modern",
+            "stand"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "white",
+        "Price": "554.00",
+        "Image": "https://picsum.photos/seed/LeWHY2gC8/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4072",
+        "Name": "Unbranded Bronze Keyboard",
+        "Category": [
+            "loft",
+            "other"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "gray",
+        "CountertopMaterial": "walnut",
+        "CountertopColor": "black",
+        "Price": "924.00",
+        "Image": "https://loremflickr.com/640/480?lock=8267336026947584"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4073",
+        "Name": "Generic Rubber Pizza",
+        "Category": [
+            "other",
+            "inside"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "black",
+        "Price": "407.00",
+        "Image": "https://loremflickr.com/640/480?lock=7836523290427392"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4074",
+        "Name": "Bespoke Steel Chips",
+        "Category": [
+            "outside",
+            "modern"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "white",
+        "Price": "795.00",
+        "Image": "https://loremflickr.com/640/480?lock=2851951582642176"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4075",
+        "Name": "Ergonomic Cotton Soap",
+        "Category": [
+            "hifi",
+            "other"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "walnut",
+        "CountertopColor": "white",
+        "Price": "84.00",
+        "Image": "https://loremflickr.com/640/480?lock=5858887106297856"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4076",
+        "Name": "Tasty Metal Chair",
+        "Category": [
+            "modern",
+            "inside"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "gray",
+        "Price": "541.00",
+        "Image": "https://loremflickr.com/640/480?lock=7829179508719616"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4077",
+        "Name": "Recycled Soft Shirt",
+        "Category": [
+            "stand",
+            "stand"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "gray",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "natural",
+        "Price": "590.00",
+        "Image": "https://loremflickr.com/640/480?lock=2605999168946176"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4078",
+        "Name": "Tasty Rubber Keyboard",
+        "Category": [
+            "stand",
+            "loft"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "walnut",
+        "CountertopColor": "black",
+        "Price": "297.00",
+        "Image": "https://loremflickr.com/640/480?lock=2769193957064704"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4079",
+        "Name": "Intelligent Rubber Keyboard",
+        "Category": [
+            "loft",
+            "hifi"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "natural",
+        "Price": "212.00",
+        "Image": "https://loremflickr.com/640/480?lock=8948191867174912"
+    },
+    {
+        "Id": "659eed76ec673f921ecd407a",
+        "Name": "Generic Fresh Towels",
+        "Category": [
+            "hifi",
+            "outside"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "black",
+        "Price": "163.00",
+        "Image": "https://picsum.photos/seed/rc7myFxa/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd407b",
+        "Name": "Elegant Metal Computer",
+        "Category": [
+            "outside",
+            "stand"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "walnut",
+        "CountertopColor": "gray",
+        "Price": "903.00",
+        "Image": "https://loremflickr.com/640/480?lock=5909046592798720"
+    },
+    {
+        "Id": "659eed76ec673f921ecd407c",
+        "Name": "Tasty Frozen Fish",
+        "Category": [
+            "loft",
+            "other"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "gray",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "black",
+        "Price": "768.00",
+        "Image": "https://picsum.photos/seed/q11IEGpm/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd407d",
+        "Name": "Luxurious Wooden Hat",
+        "Category": [
+            "modern",
+            "modern"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "black",
+        "Price": "214.00",
+        "Image": "https://picsum.photos/seed/CEYYIMDmeM/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd407e",
+        "Name": "Small Soft Table",
+        "Category": [
+            "stand",
+            "inside"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "black",
+        "Price": "239.00",
+        "Image": "https://loremflickr.com/640/480?lock=4245876956463104"
+    },
+    {
+        "Id": "659eed76ec673f921ecd407f",
+        "Name": "Unbranded Wooden Bacon",
+        "Category": [
+            "other",
+            "stand"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "natural",
+        "Price": "327.00",
+        "Image": "https://loremflickr.com/640/480?lock=6301146717093888"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4080",
+        "Name": "Tasty Metal Computer",
+        "Category": [
+            "modern",
+            "loft"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "gray",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "white",
+        "Price": "377.00",
+        "Image": "https://loremflickr.com/640/480?lock=6134190508605440"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4081",
+        "Name": "Intelligent Plastic Chair",
+        "Category": [
+            "hifi",
+            "hifi"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "natural",
+        "Price": "295.00",
+        "Image": "https://loremflickr.com/640/480?lock=6207578616889344"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4082",
+        "Name": "Refined Wooden Sausages",
+        "Category": [
+            "outside",
+            "hifi"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "natural",
+        "Price": "683.00",
+        "Image": "https://loremflickr.com/640/480?lock=3292904911011840"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4083",
+        "Name": "Intelligent Frozen Soap",
+        "Category": [
+            "modern",
+            "stand"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "gray",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "natural",
+        "Price": "260.00",
+        "Image": "https://picsum.photos/seed/ZyNWwdjD/640/480"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4084",
+        "Name": "Incredible Fresh Salad",
+        "Category": [
+            "stand",
+            "other"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "white",
+        "Price": "256.00",
+        "Image": "https://loremflickr.com/640/480?lock=5560220384231424"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4085",
+        "Name": "Generic Bronze Hat",
+        "Category": [
+            "other",
+            "inside"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "white",
+        "Price": "899.00",
+        "Image": "https://loremflickr.com/640/480?lock=7709490579243008"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4086",
+        "Name": "Rustic Cotton Fish",
+        "Category": [
+            "hifi",
+            "stand"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "gray",
+        "CountertopMaterial": "walnut",
+        "CountertopColor": "natural",
+        "Price": "699.00",
+        "Image": "https://loremflickr.com/640/480?lock=4022981661556736"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4087",
+        "Name": "Luxurious Frozen Sausages",
+        "Category": [
+            "stand",
+            "loft"
+        ],
+        "ConstructionMaterial": "steel",
+        "ConstructionColor": "black",
+        "CountertopMaterial": "oak",
+        "CountertopColor": "natural",
+        "Price": "337.00",
+        "Image": "https://loremflickr.com/640/480?lock=5589357362675712"
+    },
+    {
+        "Id": "659eed76ec673f921ecd4088",
+        "Name": "Luxurious Plastic Bike",
+        "Category": [
+            "loft",
+            "outside"
+        ],
+        "ConstructionMaterial": "aluminium",
+        "ConstructionColor": "white",
+        "CountertopMaterial": "pine",
+        "CountertopColor": "black",
+        "Price": "34.00",
+        "Image": "https://picsum.photos/seed/Mr3AB/640/480"
+    }
+]

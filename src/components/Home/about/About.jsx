@@ -1,5 +1,5 @@
 import "./about.min.css";
-import ME from "../../assets/about.jpg";
+import ME from "../../../assets/about.jpg";
 import { GrProjects } from "react-icons/gr";
 import { GrLocation } from "react-icons/gr";
 import { RiPriceTag3Line } from "react-icons/ri";

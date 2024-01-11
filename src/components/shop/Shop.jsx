@@ -2,8 +2,11 @@ import "./shop.css";
 import { useState, useEffect } from "react";
 import ProductsList from "./ProductsList";
 
+import { useClicks } from "./ClicksContext";
+
 const Shop = () => {
   const [productsList, setProductsList] = useState([]);
+  const { clicks } = useClicks();
 
   useEffect(() => {
     fetch("http://localhost:3001/Products")
@@ -12,7 +15,12 @@ const Shop = () => {
       .catch((error) => console.error("Error fetching products:", error));
   }, []);
 
-  return <ProductsList productsList={productsList} />;
+  return (
+    <>
+      <p>Liczba kliknięć: {clicks}</p>
+      <ProductsList productsList={productsList} />;
+    </>
+  );
 };
 
 export default Shop;

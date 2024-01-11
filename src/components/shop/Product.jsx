@@ -11,8 +11,8 @@ const Product = ({ id, image, name, price }) => {
       <p>Id: {id}</p>
       
       <div className="productList__buttons">
-        <button onClick={() => addItem(id)} className='btn'>+</button>
-        <button onClick={() => removeItem(id)} className='btn'>-</button>
+        <button onClick={() => addItem(id, parseFloat(price))} className='btn'>+</button>
+        <button onClick={() => removeItem(id, parseFloat(price))} className='btn'>-</button>
       </div>
     </li>
   );

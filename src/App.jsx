@@ -11,6 +11,7 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 
 import Shop from "./components/shop/Shop";
+import { ClicksProvider } from "./components/shop/ClicksContext";
 
 const HomePage = () => {
   return (
@@ -28,15 +29,17 @@ const HomePage = () => {
 const App = () => {
   return (
     <Router>
-      <div>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/shop" element={<Shop />} />
-        </Routes>
+      <ClicksProvider>
+        <div>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/shop" element={<Shop />} />
+          </Routes>
 
-        <Contact />
-        <Footer />
-      </div>
+          <Contact />
+          <Footer />
+        </div>
+      </ClicksProvider>
     </Router>
   );
 };

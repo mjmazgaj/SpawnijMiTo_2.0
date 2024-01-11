@@ -1,0 +1,14 @@
+.productslist-container li{
+    display: flex;
+    flex-wrap: wrap;
+    gap: auto;
+  }
+
+  .product-container{
+      background-color: var(--color-background-variant);
+      box-sizing: border-box;
+      padding: 1rem;
+      margin: 1rem;
+      min-width: 300px;
+      width: 25%;
+}

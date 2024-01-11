@@ -18,10 +18,10 @@ const Shop = () => {
   }, []);
 
   return (
-    <>
+    <div id="shop">
       <p>{liczbaElementow}</p>
       <ProductsList productsList={productsList} />;
-    </>
+    </div>
   );
 };
 

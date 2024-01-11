@@ -10,8 +10,8 @@ const Product = ({ id, image, name, price }) => {
       <p>Cena: {price}</p>
       
       <div className="product-Clicks__buttons">
-        <button onClick={incrementClicks} className='btn'>+</button>
-        <button onClick={decrementClicks} className='btn'>-</button>
+        <button onClick={() => incrementClicks(id)} className='btn'>+</button>
+        <button onClick={() => decrementClicks(id)} className='btn'>-</button>
       </div>
     </li>
   );

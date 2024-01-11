@@ -11,7 +11,7 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 
 import Shop from "./components/shop/Shop";
-import { ClicksProvider } from "./components/shop/ClicksContext";
+import { ProductsProvider } from "./components/shop/ProductsContext";
 
 const HomePage = () => {
   return (
@@ -29,7 +29,7 @@ const HomePage = () => {
 const App = () => {
   return (
     <Router>
-      <ClicksProvider>
+      <ProductsProvider>
         <div>
           <Routes>
             <Route path="/" element={<HomePage />} />
@@ -39,7 +39,7 @@ const App = () => {
           <Contact />
           <Footer />
         </div>
-      </ClicksProvider>
+      </ProductsProvider>
     </Router>
   );
 };

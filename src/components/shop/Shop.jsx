@@ -2,11 +2,13 @@ import "./shop.css";
 import { useState, useEffect } from "react";
 import ProductsList from "./ProductsList";
 
-import { useClicks } from "./ClicksContext";
+import { useProducts } from "./ProductsContext";
 
 const Shop = () => {
   const [productsList, setProductsList] = useState([]);
-  const { clicks } = useClicks();
+
+  const { productList } = useProducts();
+  const liczbaElementow = Object.keys(productList).length;
 
   useEffect(() => {
     fetch("http://localhost:3001/Products")
@@ -17,7 +19,7 @@ const Shop = () => {
 
   return (
     <>
-      <p>Liczba kliknięć: {clicks}</p>
+      <p>{liczbaElementow}</p>
       <ProductsList productsList={productsList} />;
     </>
   );

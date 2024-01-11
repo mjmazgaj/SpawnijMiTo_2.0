@@ -1,4 +1,4 @@
-.productslist-container li{
+.productslist-container ul{
     display: flex;
     flex-wrap: wrap;
     gap: auto;

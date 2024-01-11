@@ -4,7 +4,7 @@ const Product = ({ id, image, name, price }) => {
   const { incrementClicks, decrementClicks } = useClicks();
 
   return (
-    <ul className="product-container" key={id}>
+    <li id={id} className="product-container" >
       <img src={image} alt="" />
       <h3>{name}</h3>
       <p>Cena: {price}</p>
@@ -13,7 +13,7 @@ const Product = ({ id, image, name, price }) => {
         <button onClick={incrementClicks} className='btn'>+</button>
         <button onClick={decrementClicks} className='btn'>-</button>
       </div>
-    </ul>
+    </li>
   );
 };
 

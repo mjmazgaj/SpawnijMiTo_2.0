@@ -55,22 +55,26 @@ const Nav = ({ toggleShopMode, isShopMode }) => {
 
   return (
     <nav>
-        <div>
-          <a
-            href={isShopMode ? "/": "#"}
-            onClick={() => {
-              setActiveNav("#");
-              if (isShopMode) toggleShopMode();
-            }}
-            className={activeNav === "#" ? "active" : ""}
-          >
-            <AiOutlineHome activeNav={activeNav} setActiveNav={setActiveNav} />
-          </a>
-        </div>
-        {!isShopMode && (
-          <HomeNav activeNav={activeNav} setActiveNav={setActiveNav} toggleShopMode={toggleShopMode} />
-        )}
-        {isShopMode && <ShopNav />}
+      <div>
+        <a
+          href={isShopMode ? "/" : "#"}
+          onClick={() => {
+            setActiveNav("#");
+            if (isShopMode) toggleShopMode();
+          }}
+          className={activeNav === "#" ? "active" : ""}
+        >
+          <AiOutlineHome activeNav={activeNav} setActiveNav={setActiveNav} />
+        </a>
+      </div>
+      {!isShopMode && (
+        <HomeNav
+          activeNav={activeNav}
+          setActiveNav={setActiveNav}
+          toggleShopMode={toggleShopMode}
+        />
+      )}
+      {isShopMode && <ShopNav />}
     </nav>
   );
 };

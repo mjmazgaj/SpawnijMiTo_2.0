@@ -6,7 +6,6 @@ import { RiServiceLine } from "react-icons/ri";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { useState } from "react";
 import Cart from "../shop/Cart";
-import { Link } from "react-router-dom";
 
 const HomeNav = ({ activeNav, setActiveNav }) => {
   return (
@@ -46,10 +45,6 @@ const HomeNav = ({ activeNav, setActiveNav }) => {
 const ShopNav = () => {
   return (
     <div className="shopnav">
-      <Link to="/summary">
-        <BiMessageSquareDetail />
-      </Link>
-      <p>Do zapłaty: </p>
       <Cart />
     </div>
   );

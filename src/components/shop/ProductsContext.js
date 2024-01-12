@@ -1,16 +1,12 @@
-import { createContext, useContext, useState, useEffect } from "react";
+import { createContext, useContext, useState } from "react";
 
 const ProductsContext = createContext();
 
 const ProductsProvider = ({ children }) => {
   const [productList, setProductList] = useState({});
 
-  useEffect(() => {
-    console.log("Current State:", productList);
-  }, [productList]);
 
   const addItem = (productId, price) => {
-    console.log(price);
     setProductList((prevProductList) => ({
       ...prevProductList,
       [productId]: {

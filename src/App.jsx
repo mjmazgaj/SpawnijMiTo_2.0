@@ -28,8 +28,8 @@ const HomePage = () => {
 
 const App = () => {
   return (
-    <Router>
-      <ProductsProvider>
+    <ProductsProvider>
+      <Router>
         <div>
           <Routes>
             <Route path="/" element={<HomePage />} />
@@ -39,8 +39,8 @@ const App = () => {
           <Contact />
           <Footer />
         </div>
-      </ProductsProvider>
-    </Router>
+      </Router>
+    </ProductsProvider>
   );
 };
 

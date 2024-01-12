@@ -19,23 +19,38 @@ const ProductDetails = () => {
   }, [productId, productsList]);
 
   if (!product) {
-    return <div>
-      <Link to="/shop" className="btn">Kontynuuj zakupy</Link>
-      <p>Ładujemy dane...</p>
-    </div>;
-  } else {
     return (
       <div>
-        <Link to="/shop" className="btn">Kontynuuj zakupy</Link>
-        <h2>Szczegóły </h2>
-        <p>Nazwa: {product.Name}</p>
-        <p>Kategoria: {product.Category.join(", ")}</p>
-        <p>Construction Material: {product.ConstructionMaterial}</p>
-        <p>Construction Color: {product.ConstructionColor}</p>
-        <p>Countertop Material: {product.CountertopMaterial}</p>
-        <p>Countertop Color: {product.CountertopColor}</p>
-        <p>Price: {product.Price}</p>
-        <img src={product.Image} alt="" />
+        <Link to="/shop" className="btn">
+          Kontynuuj zakupy
+        </Link>
+        <p>Ładujemy dane...</p>
+      </div>
+    );
+  } else {
+    return (
+      <div className="product-detail__container">
+        <Link to="/shop" className="btn">
+          Kontynuuj zakupy
+        </Link>
+        <div className="product-detail-details">
+          <div className="product-detail-details__text">
+            <h2>{product.Name}</h2>
+            <p>Kategoria: {product.Category.join(", ")}</p>
+            <h3>Konstrukcja</h3>
+            <p>Materiał: {product.ConstructionMaterial}</p>
+            <p>Kolor: {product.ConstructionColor}</p>
+            <h3>Blat</h3>
+            <p>Materiał: {product.CountertopMaterial}</p>
+            <p>blatu: {product.CountertopColor}</p>
+            <h3 className="product-detail-details__price">
+              Cena: {product.Price}
+            </h3>
+          </div>
+          <div>
+            <img src={product.Image} alt="" />
+          </div>
+        </div>
       </div>
     );
   }

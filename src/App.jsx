@@ -16,7 +16,6 @@ import { ProductsProvider } from "./components/shop/ProductsContext";
 const HomePage = () => {
   return (
     <>
-      <Header />
       <About />
       <Services />
       <Portfolio />
@@ -37,6 +36,10 @@ const App = () => {
       <Router>
         <div>
           <Nav
+            toggleShopMode={handleToggleShopMode}
+            isShopMode={isShopMode}
+          />
+          <Header
             toggleShopMode={handleToggleShopMode}
             isShopMode={isShopMode}
           />

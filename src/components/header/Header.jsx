@@ -6,8 +6,8 @@ const Header = ({toggleShopMode, isShopMode}) => {
   return (
     <header className={isShopMode ? "header-shopMode" : ""}>
       <HeaderSocial />
-      <CTA />
-      
+      <CTA toggleShopMode={toggleShopMode} isShopMode={isShopMode}/>
+
       <div className="container header__container">
         <div className="header__logo">
           <h1 className="header__logo-first-line">SPAWNIJ</h1>

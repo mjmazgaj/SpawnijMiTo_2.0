@@ -1,10 +1,13 @@
 import "./header.css";
+import {Link} from "react-router-dom";
 
-const CTA = () => {
+const CTA = ({toggleShopMode, isShopMode}) => {
   return (
     <div className="cta">
-        <a href="#contact" className="btn btn-primary">Kontakt</a>
-        <a href="/shop" className="btn btn-primary">Shop</a>
+      <Link to="#contact" className="btn btn-primary">
+        Kontakt
+      </Link>
+      <Link to={isShopMode ? "/" : "/shop"} className="btn" onClick={toggleShopMode}> {isShopMode ? "Strona główna" : "Sklep"}</Link>
     </div>
   );
 };

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useProducts } from "./ProductsContext";
 
 const Product = ({ product }) => {

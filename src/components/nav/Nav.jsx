@@ -8,15 +8,12 @@ import { useState } from "react";
 import Cart from "../shop/Cart";
 import { Link } from "react-router-dom";
 
-const HomeNav = ({ activeNav, setActiveNav, toggleShopMode }) => {
+const HomeNav = ({ activeNav, setActiveNav }) => {
   return (
-    <div>
+    <div className="homenav">
       <a
-        href="/"
-        onClick={() => {
-          toggleShopMode();
-          setActiveNav("#about");
-        }}
+        href="#about"
+        onClick={() => setActiveNav("#about")}
         className={activeNav === "#about" ? "active" : ""}
       >
         <AiOutlineUser />
@@ -62,23 +59,23 @@ const Nav = ({ toggleShopMode, isShopMode }) => {
   const [activeNav, setActiveNav] = useState("#");
 
   return (
-    <nav className={isShopMode ? "shopMode" : ""}>
-      <div>
-        <a
-          href="/"
-          onClick={() => {
-            setActiveNav("#");
-            if (isShopMode) toggleShopMode();
-          }}
-          className={activeNav === "#" ? "active" : ""}
-        >
-          <AiOutlineHome activeNav={activeNav} setActiveNav={setActiveNav} />
-        </a>
-      </div>
-      {!isShopMode && (
-        <HomeNav activeNav={activeNav} setActiveNav={setActiveNav} toggleShopMode={toggleShopMode} />
-      )}
-      {isShopMode && <ShopNav />}
+    <nav>
+        <div>
+          <a
+            href={isShopMode ? "/": "#"}
+            onClick={() => {
+              setActiveNav("#");
+              if (isShopMode) toggleShopMode();
+            }}
+            className={activeNav === "#" ? "active" : ""}
+          >
+            <AiOutlineHome activeNav={activeNav} setActiveNav={setActiveNav} />
+          </a>
+        </div>
+        {!isShopMode && (
+          <HomeNav activeNav={activeNav} setActiveNav={setActiveNav} toggleShopMode={toggleShopMode} />
+        )}
+        {isShopMode && <ShopNav />}
     </nav>
   );
 };

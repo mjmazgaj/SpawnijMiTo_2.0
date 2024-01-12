@@ -5,35 +5,48 @@ const ProductsContext = createContext();
 const ProductsProvider = ({ children }) => {
   const [summaryProductList, setSummaryProductList] = useState({});
 
-  const addItem = (productId, price) => {
-    setSummaryProductList((prevSummaryProductList) => ({
-      ...prevSummaryProductList,
-      [productId]: {
-        quantity: (prevSummaryProductList[productId]?.quantity || 0) + 1,
-        cost: (prevSummaryProductList[productId]?.cost || 0.00) + price
-      },
-    }));
+  const addItem = (product) => {
+    setSummaryProductList((prevSummaryProductList) => {
+      const updatedSummaryProductList = { ...prevSummaryProductList };
+
+      if (updatedSummaryProductList[product.Id]) {
+        updatedSummaryProductList[product.Id].quantity += 1;
+        updatedSummaryProductList[product.Id].cost += parseFloat(product.Price);
+      } else {
+        updatedSummaryProductList[product.Id] = {
+          ...product,
+          quantity: 1,
+          cost: parseFloat(product.Price),
+        };
+      }
+
+      return updatedSummaryProductList;
+    });
   };
 
-  const removeItem = (productId, price) => {
-    if (summaryProductList[productId]?.quantity > 1) {
-      setSummaryProductList((prevSummaryProductList) => ({
-        ...prevSummaryProductList,
-        [productId]: {
-          quantity: prevSummaryProductList[productId].quantity - 1,
-          cost: prevSummaryProductList[productId].cost - price
-        },
-      }));
-    } else if (summaryProductList[productId]?.quantity === 1) {
-      setSummaryProductList((prevSummaryProductList) => {
-        const { [productId]: deletedKey, ...rest } = prevSummaryProductList;
-        return rest;
-      });
-    }
+  const removeItem = (product) => {
+    setSummaryProductList((prevSummaryProductList) => {
+      const updatedSummaryProductList = { ...prevSummaryProductList };
+
+      if (updatedSummaryProductList[product.Id]) {
+        if (updatedSummaryProductList[product.Id].quantity > 1) {
+          updatedSummaryProductList[product.Id].quantity -= 1;
+          updatedSummaryProductList[product.Id].cost -= parseFloat(
+            product.Price
+          );
+        } else {
+          delete updatedSummaryProductList[product.Id];
+        }
+      }
+
+      return updatedSummaryProductList;
+    });
   };
 
   return (
-    <ProductsContext.Provider value={{ summaryProductList, addItem, removeItem }}>
+    <ProductsContext.Provider
+      value={{ summaryProductList, addItem, removeItem }}
+    >
       {children}
     </ProductsContext.Provider>
   );

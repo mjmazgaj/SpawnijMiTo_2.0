@@ -8,7 +8,6 @@ const Product = ({ id, image, name, price }) => {
       <img src={image} alt="" />
       <h3>{name}</h3>
       <p>Cena: {price}</p>
-      <p>Id: {id}</p>
       
       <div className="productList__buttons">
         <button onClick={() => addItem(id, parseFloat(price))} className='btn'>+</button>

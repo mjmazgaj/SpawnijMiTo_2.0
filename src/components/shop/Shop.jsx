@@ -7,9 +7,6 @@ import { useProducts } from "./ProductsContext";
 const Shop = () => {
   const [productsList, setProductsList] = useState([]);
 
-  const { productList } = useProducts();
-  const liczbaElementow = Object.keys(productList).length;
-
   useEffect(() => {
     fetch("http://localhost:3001/Products")
       .then((response) => response.json())
@@ -19,7 +16,6 @@ const Shop = () => {
 
   return (
     <div id="shop">
-      <p>{liczbaElementow}</p>
       <ProductsList productsList={productsList} />;
     </div>
   );

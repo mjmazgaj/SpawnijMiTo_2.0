@@ -12,6 +12,7 @@ import Footer from "./components/footer/Footer";
 
 import Shop from "./components/shop/Shop";
 import { ProductsProvider } from "./components/shop/ProductsContext";
+import Summary from "./components/shop/Summary";
 
 const HomePage = () => {
   return (
@@ -46,6 +47,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/shop" element={<Shop />} />
+            <Route path="/summary" element={<Summary />} />
           </Routes>
 
           <Contact />

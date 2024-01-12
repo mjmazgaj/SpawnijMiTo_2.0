@@ -15,9 +15,9 @@ const SummaryProductList = () => {
     ));
 
   return (
-    <div>
-      <li>{renderCartItems()}</li>
-      <p>Total Price: {totalPrice.toFixed(2)}</p>
+    <div className="summary-product-list__container">
+      {(Object.keys(summaryProductList).length) ? (<ul>{renderCartItems()}</ul>) : (<p>Koszyk jest pusty</p>)}
+      <p>Suma: <b>{totalPrice}</b> zł</p>
     </div>
   );
 };

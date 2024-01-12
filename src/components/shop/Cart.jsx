@@ -4,14 +4,11 @@ import { useProducts } from "./ProductsContext";
 
 const Cart = () => {
   const { summaryProductList } = useProducts();
-  
-  let totalPrice = 0;
 
-  for (const key in summaryProductList) {
-    if (summaryProductList.hasOwnProperty(key)) {
-      totalPrice += summaryProductList[key].cost;
-    }
-  }
+  const totalPrice = Object.values(summaryProductList)
+    .reduce((acc, product) => acc + product.cost, 0)
+    .toFixed(2);
+
   return (
     <div id="cart">
       <p>{totalPrice.toFixed(2)}</p>

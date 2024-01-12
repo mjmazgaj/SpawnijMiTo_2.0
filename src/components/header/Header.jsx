@@ -2,9 +2,9 @@ import "./header.min.css";
 import CTA from "./CTA";
 import HeaderSocial from "./HeaderSocials";
 
-const Header = () => {
+const Header = ({toggleShopMode, isShopMode}) => {
   return (
-    <header>
+    <header className={isShopMode ? "header-shopMode" : ""}>
       <HeaderSocial />
       <CTA />
       

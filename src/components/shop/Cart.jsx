@@ -11,7 +11,7 @@ const Cart = () => {
 
   return (
     <div id="cart">
-      <p>{totalPrice.toFixed(2)}</p>
+      <p>{totalPrice}</p>
     </div>
   );
 };

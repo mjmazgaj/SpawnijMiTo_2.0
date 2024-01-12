@@ -4,10 +4,18 @@ import SummaryProductList from "./SummaryProductList";
 
 const Summary = () => {
   return (
-    <>
-    <Link to="/shop" className="btn">Kontynuuj zakupy</Link>
-    <SummaryProductList />
-    </>
+    <div className="summary__container">
+      <h3>Lista zakupów:</h3>
+      <SummaryProductList />
+      <div className="summary__buttons">
+        <Link to="/shop" className="btn">
+          Kontynuuj zakupy
+        </Link>
+        <Link to="/" className="btn btn-primary">
+          Do kasy
+        </Link>
+      </div>
+    </div>
   );
 };
 

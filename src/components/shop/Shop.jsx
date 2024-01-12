@@ -2,8 +2,6 @@ import "./shop.css";
 import { useState, useEffect } from "react";
 import ProductsList from "./ProductsList";
 
-import { useProducts } from "./ProductsContext";
-
 const Shop = () => {
   const [productsList, setProductsList] = useState([]);
 

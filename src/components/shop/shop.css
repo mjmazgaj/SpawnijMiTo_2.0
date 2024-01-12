@@ -16,8 +16,25 @@
 .product__container {
   background-color: var(--color-background-variant);
   box-sizing: border-box;
-  padding: 1rem;
   margin: 1rem;
+}
+
+.product__details {
+  padding: 1rem;
+}
+
+.product__buttons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.product__button {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
 }
 
 .summary__container {
@@ -66,7 +83,7 @@
   align-items: center;
 }
 
-.summary-product-item__button{
+.summary-product-item__button {
   width: 20px;
   height: 20px;
   cursor: pointer;

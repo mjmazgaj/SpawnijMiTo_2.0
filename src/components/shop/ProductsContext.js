@@ -3,38 +3,37 @@ import { createContext, useContext, useState } from "react";
 const ProductsContext = createContext();
 
 const ProductsProvider = ({ children }) => {
-  const [productList, setProductList] = useState({});
-
+  const [summaryProductList, setSummaryProductList] = useState({});
 
   const addItem = (productId, price) => {
-    setProductList((prevProductList) => ({
-      ...prevProductList,
+    setSummaryProductList((prevSummaryProductList) => ({
+      ...prevSummaryProductList,
       [productId]: {
-        quantity: (prevProductList[productId]?.quantity || 0) + 1,
-        cost: (prevProductList[productId]?.cost || 0.00) + price
+        quantity: (prevSummaryProductList[productId]?.quantity || 0) + 1,
+        cost: (prevSummaryProductList[productId]?.cost || 0.00) + price
       },
     }));
   };
 
   const removeItem = (productId, price) => {
-    if (productList[productId]?.quantity > 1) {
-      setProductList((prevProductList) => ({
-        ...prevProductList,
+    if (summaryProductList[productId]?.quantity > 1) {
+      setSummaryProductList((prevSummaryProductList) => ({
+        ...prevSummaryProductList,
         [productId]: {
-          quantity: prevProductList[productId].quantity - 1,
-          cost: prevProductList[productId].cost - price
+          quantity: prevSummaryProductList[productId].quantity - 1,
+          cost: prevSummaryProductList[productId].cost - price
         },
       }));
-    } else if (productList[productId]?.quantity === 1) {
-      setProductList((prevProductList) => {
-        const { [productId]: deletedKey, ...rest } = prevProductList;
+    } else if (summaryProductList[productId]?.quantity === 1) {
+      setSummaryProductList((prevSummaryProductList) => {
+        const { [productId]: deletedKey, ...rest } = prevSummaryProductList;
         return rest;
       });
     }
   };
 
   return (
-    <ProductsContext.Provider value={{ productList, addItem, removeItem }}>
+    <ProductsContext.Provider value={{ summaryProductList, addItem, removeItem }}>
       {children}
     </ProductsContext.Provider>
   );

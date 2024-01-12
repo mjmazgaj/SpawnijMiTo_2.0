@@ -4,7 +4,7 @@
     gap: auto;
   }
 
-  .product-container{
+  .summary-product-item__container{
       background-color: var(--color-background-variant);
       box-sizing: border-box;
       padding: 1rem;

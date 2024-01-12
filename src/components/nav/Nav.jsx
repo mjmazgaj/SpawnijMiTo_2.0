@@ -5,6 +5,7 @@ import { BiBook } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { useState } from "react";
+import Cart from "../shop/Cart";
 
 const HomeNav = ({ activeNav, setActiveNav, toggleShopMode }) => {
   return (
@@ -51,6 +52,7 @@ const ShopNav = () => {
         <BiMessageSquareDetail />
       </a>
       <p>Do zapłaty: </p>
+      <Cart />
     </div>
   );
 };

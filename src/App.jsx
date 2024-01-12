@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import Nav from "./components/nav/Nav";
@@ -15,7 +16,6 @@ import { ProductsProvider } from "./components/shop/ProductsContext";
 const HomePage = () => {
   return (
     <>
-      <Nav />
       <Header />
       <About />
       <Services />
@@ -26,10 +26,20 @@ const HomePage = () => {
 };
 
 const App = () => {
+  const [isShopMode, setIsShopMode] = useState(false);
+
+  const handleToggleShopMode = () => {
+    setIsShopMode((prevShopMode) => !prevShopMode);
+  };
+
   return (
     <ProductsProvider>
       <Router>
         <div>
+          <Nav
+            toggleShopMode={handleToggleShopMode}
+            isShopMode={isShopMode}
+          />
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/shop" element={<Shop />} />

@@ -9,8 +9,7 @@
   gap: 1rem;
 }
 
-#cart {
-  margin-left: 1rem;
+.cart__price{
   width: 100px;
 }
 

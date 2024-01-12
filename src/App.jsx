@@ -13,6 +13,7 @@ import Footer from "./components/footer/Footer";
 import Shop from "./components/shop/Shop";
 import { ProductsProvider } from "./components/shop/ProductsContext";
 import Summary from "./components/shop/Summary";
+import ErrorPage from "./pages/ErrorPage";
 import ScrollToTop from "./helpers/ScrollToTop";
 
 const HomePage = () => {
@@ -50,6 +51,7 @@ const App = () => {
             <Route path="/" element={<HomePage />} />
             <Route path="/shop" element={<Shop />} />
             <Route path="/summary" element={<Summary />} />
+            <Route path="*" element={<ErrorPage/>}/>
           </Routes>
 
           <Contact />

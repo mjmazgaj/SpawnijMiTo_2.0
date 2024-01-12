@@ -12,3 +12,8 @@
       min-width: 300px;
       width: 25%;
 }
+
+#cart {
+  margin-left: 1rem;
+  width: 100px;
+}

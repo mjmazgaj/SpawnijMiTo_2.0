@@ -13,13 +13,34 @@ nav {
   backdrop-filter: blur(15px);
 }
 
-nav a {
+.shopMode{
+  width: 100%;
+  border-radius: 0%;
+  bottom: 0;
+}
+
+nav .shopnav {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+nav div a {
   background: transparent;
   padding: 0.9rem;
   border-radius: 50%;
   display: flex;
   color: var(--collor-light);
   font-size: 1.1rem;
+}
+
+
+nav div p {
+  margin-left: 1rem;
 }
 
 nav a:hover {

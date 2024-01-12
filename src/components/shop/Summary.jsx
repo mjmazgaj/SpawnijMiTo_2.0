@@ -1,35 +1,13 @@
+import { Link } from "react-router-dom";
 import "./shop.css";
-import { useProducts } from "./ProductsContext";
+import SummaryProductList from "./SummaryProductList";
 
 const Summary = () => {
-  const { productList } = useProducts();
-  let totalPrice = 0;
-
-  const renderCartItems = () => {
-    const cartItems = [];
-
-    for (const key in productList) {
-      if (productList.hasOwnProperty(key)) {
-        const { cost, quantity } = productList[key];
-        totalPrice += cost;
-
-        cartItems.push(
-          <div key={key} className="cart-item">
-            <p>Cost: {cost}</p>
-            <p>Quantity: {quantity}</p>
-          </div>
-        );
-      }
-    }
-
-    return cartItems;
-  };
-
   return (
-    <div>
-      {renderCartItems()}
-      <p>Total Price: {totalPrice.toFixed(2)}</p>
-    </div>
+    <>
+    <Link to="/shop" className="btn">Kontynuuj zakupy</Link>
+    <SummaryProductList />
+    </>
   );
 };
 

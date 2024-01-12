@@ -1,7 +1,9 @@
 import { useProducts } from "./ProductsContext";
 
 const Product = ({ id, image, name, price }) => {
-  const { addItem, removeItem } = useProducts();
+  const { addItem, removeItem, productList } = useProducts();
+  
+  const quantity = productList[id]?.quantity ? productList[id]?.quantity : 0;
 
   return (
     <li id={id} className="product-container" >
@@ -12,6 +14,7 @@ const Product = ({ id, image, name, price }) => {
       <div className="productList__buttons">
         <button onClick={() => addItem(id, parseFloat(price))} className='btn'>+</button>
         <button onClick={() => removeItem(id, parseFloat(price))} className='btn'>-</button>
+        <p>{quantity}</p>
       </div>
     </li>
   );

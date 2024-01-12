@@ -4,24 +4,15 @@ import SummaryProductItem from "./SummaryProductItem";
 
 const SummaryProductList = () => {
   const { summaryProductList } = useProducts();
-  let totalPrice = 0;
 
-  const renderCartItems = () => {
-    const cartItems = [];
+  const totalPrice = Object.values(summaryProductList)
+    .reduce((acc, { cost }) => acc + cost, 0)
+    .toFixed(2);
 
-    for (const key in summaryProductList) {
-      if (summaryProductList.hasOwnProperty(key)) {
-        const { cost, quantity } = summaryProductList[key];
-        totalPrice += cost;
-
-        cartItems.push(
-          <SummaryProductItem id={key} cost={cost} quantity={quantity} />
-        );
-      }
-    }
-
-    return cartItems;
-  };
+  const renderCartItems = () =>
+    Object.entries(summaryProductList).map(([id, product]) => (
+      <SummaryProductItem key={id} product={product} />
+    ));
 
   return (
     <div>

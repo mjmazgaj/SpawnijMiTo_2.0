@@ -9,12 +9,12 @@ const Product = ({ product }) => {
   const quantity = summaryProductList[id]?.quantity ? summaryProductList[id]?.quantity : 0;
 
   return (
-    <li id={id} className="summary-product-item__container" >
+    <li id={id} className="product__container" >
       <img src={product.Image} alt="" />
       <Link to={`/productdetails/${id}`}><h3>{product.Name}</h3></Link>
       <p>Cena: {product.Price}</p>
       
-      <div className="summary-product-item__buttons">
+      <div className="product__buttons">
         <button onClick={() => addItem(product)} className='btn'>+</button>
         <button onClick={() => removeItem(product)} className='btn'>-</button>
         <p>{quantity}</p>

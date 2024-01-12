@@ -14,6 +14,7 @@ import Shop from "./components/shop/Shop";
 import { ProductsProvider } from "./components/shop/ProductsContext";
 import Summary from "./components/shop/Summary";
 import ErrorPage from "./pages/ErrorPage";
+import ProductDetails from "./components/shop/ProductDetails";
 import ScrollToTop from "./helpers/ScrollToTop";
 
 const HomePage = () => {
@@ -50,6 +51,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/shop" element={<Shop />} />
+            <Route path="/productdetails/:productId" element={<ProductDetails />} />
             <Route path="/summary" element={<Summary />} />
             <Route path="*" element={<ErrorPage/>}/>
           </Routes>

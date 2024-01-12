@@ -10,7 +10,7 @@ const Product = ({ product }) => {
   return (
     <li id={id} className="summary-product-item__container" >
       <img src={product.Image} alt="" />
-      <h3>{product.Name}</h3>
+      <Link to={`/productdetails/${id}`}><h3>{product.Name}</h3></Link>
       <p>Cena: {product.Price}</p>
       
       <div className="summary-product-item__buttons">
